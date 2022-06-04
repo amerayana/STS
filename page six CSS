@@ -1,0 +1,180 @@
+h1{
+    margin:100px 0px ;
+    height: 20;
+    color: gray;
+	text-align:center;
+    font-family:'Century Gothic';
+}
+
+h2{
+    margin-left: 160;
+    font-size: 15;
+    font-family:'Century Gothic';
+    position: absolute;
+    top:57%;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+h2:hover{
+    color: red; font-size:19
+}
+
+
+h3{
+    margin-left: 160;
+    font-size: 15;
+    font-family:'Century Gothic';
+    margin-top:20;
+    position: absolute;
+    top:64%;
+}
+
+h9{
+   
+    margin-left: 160;
+    font-size: 15;
+    font-family:'Century Gothic';
+    margin-top:20;
+    position: absolute;
+    top:60%;
+    
+}
+
+
+
+
+h3:hover{
+    color: red; 
+    font-size:19;
+}
+
+h9:hover{
+    color: red; font-size:19
+}
+
+
+
+h4{
+   
+    font-family:'Century Gothic';
+    color: gray;
+    margin-left: 600;
+    padding: 15px;
+    position: absolute;
+    top:26%;
+    
+}
+
+h5{
+   
+    font-family:'Century Gothic';
+    font-size: 13;
+    color: gray;
+    margin-left: 600;
+    padding: 15px;
+    position: absolute;
+    top:39%;
+    
+}
+
+h6{
+   
+    font-family:'Century Gothic';
+    font-size: 13;
+    color: gray;
+    margin-left: 600;
+    padding: 15px;
+    position: absolute;
+    top:47%;
+    
+}
+
+h7{
+   
+    font-family:'Century Gothic';
+    font-size: 13;
+    color: gray;
+    margin-left: 600;
+    padding: 15px;
+    position: absolute;
+    top:59%;
+    
+}
+
+h8{
+   font-family:'Century Gothic';
+    font-size: 14;
+    color: gray;
+    margin-left: 600;
+    padding: 15px;
+    position: absolute;
+    top:35%; 
+}
+
+/* ********************footer css ****************************/
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+body {
+    background-image:url(background2.jpg);
+height: 1000;
+margin: 0;
+display: grid;
+font-size: 14px;
+}
+
+
+
+footer
+{
+width:auto; 
+    position: relative;
+    margin-top: 600px ;
+height: 300;
+display: flex;
+
+padding: 30px;
+top:60px;
+color: #fff;
+background-color: #363636;
+
+    
+}
+
+.footer > * 
+{
+flex:  1 100%;
+}
+
+
+
+
+
+
+.text-footer1{
+    position: absolute;
+    font-family:  'Helvetica','Poppins', Sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    padding-left: 10px;
+    padding-right: 0px;
+  margin-left: 320px;
+  margin-top: 0px;
+}
+
+.text-footer2{
+    position: absolute;
+    font-family:'Century Gothic';
+    font-size: 15px;
+    font-style: bold;
+    padding-left: 10px;
+    padding-right: 0px;
+  margin-left: 320px;
+  margin-top: 60px;
+}
