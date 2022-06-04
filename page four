@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Doctor Interface</title>
+<link rel="stylesheet" type="text/css" href="pagetwostyle.css">
+<meta name="viewport" content="width=device-wigth,initial-scale=1.0">
+    
+<style type="text/css">
+
+
+.button2 {}
+
+
+    
+</style>
+</head>
+<body>
+    <h1 class="headerofpage"> Choose a course </h1>
+    
+    
+    <button class="button1">Training material</button>
+
+    <button class="button3"> Course 1</button>
+  
+    <button class="button4"> Course 2</button>
+    
+    <button class="button5"> Course 3</button>
+
+    
+        <p > <a  href="pagefive.html"   > I</a> </p> 
+        
+        </div>
+<footer class="footer">
+       <div class="l-footer">
+          <h1> <img src="uni.png" alt=""></h1>
+	   </div>
+    
+
+       <div class="text-footer1">
+          <p>The University of Jordan </p>
+       </div>
+	  
+       <div class="text-footer2">
+          <p>@ 2022 KASIT </p>
+       </div>
+</footer>
+</body>
+</html>
