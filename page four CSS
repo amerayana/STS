@@ -1,0 +1,156 @@
+body{
+    background-image:url(background2.jpg);
+}
+
+
+.headerofpage
+{
+	margin:100px 0px ;
+    height: 20;
+    color: gray;
+	text-align:center;
+    font-family:'Century Gothic';
+}
+
+  
+.button1 {
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-family:'Century Gothic';
+  text-align: center;
+  text-decoration: none;
+  margin-left: 400px;
+  margin-top: 90px;
+  font-size: 18px;
+  width: 150;
+  height: 300;
+  position:fi;
+  cursor: pointer;
+    padding: 19px;
+    border-radius: 25px;
+}
+
+.button3{
+    width: 150;
+    height: 300;
+    font-size: 18px;
+    background-color:#B3B7B7 ;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 310px;
+    font-family:'Century Gothic';
+
+}
+
+.button4{
+    width: 150;
+    height: 300;
+    background-color:#B3B7B7 ;
+    border: none;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 310px;
+    font-family:'Century Gothic';
+    border-radius: 25px;
+    
+}
+
+.button5{
+    width: 150;
+    height: 300;
+    background-color:#B3B7B7 ;
+    border: none;
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    margin-left: 1000px;
+    margin-top: 310px;
+    font-family:'Century Gothic';
+    border-radius: 25px;
+    
+}
+
+
+
+/* ********************footer css **************************** */
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+body {
+
+margin: 0;
+display: grid;
+font-size: 14px;
+}
+header p {
+padding: 50px;
+text-align: center;
+color: #bebebe;
+text-transform: uppercase;
+font-size: 65px;
+font-weight: 700;
+}
+.footer {
+display: flex;
+flex-flow: row wrap;
+padding: 50px;
+top:80px;
+color: #fff;
+background-color: #363636;
+margin-top: 400px;
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+
+
+
+
+img{
+    width: 150px;
+    margin-left: 150px;
+    
+    
+} 
+
+.text-footer1{
+    position: absolute;
+    font-family:  'Helvetica','Poppins', Sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    padding-left: 10px;
+    padding-right: 0px;
+  margin-left: 320px;
+  margin-top: 0px;
+}
+
+.text-footer2{
+    position: absolute;
+    font-family:'Century Gothic';
+    font-size: 15px;
+    font-style: bold;
+    padding-left: 10px;
+    padding-right: 0px;
+  margin-left: 320px;
+  margin-top: 60px;
+}
+
+a
+{
+    background-color: transparent;
+	color:transparent;
+    top: 34% ;
+    margin-left: 411px;
+    position: fixed;
+    font-size: 400;
+    
+}
