@@ -7,7 +7,7 @@ h1{
 }
 
 h2{
-    margin-left: 160;
+    margin-left: 260;
     font-size: 15;
     font-family:'Century Gothic';
     position: absolute;
@@ -26,7 +26,7 @@ h2:hover{
 
 
 h3{
-    margin-left: 160;
+    margin-left: 260;
     font-size: 15;
     font-family:'Century Gothic';
     margin-top:20;
@@ -36,7 +36,7 @@ h3{
 
 h9{
    
-    margin-left: 160;
+    margin-left: 260;
     font-size: 15;
     font-family:'Century Gothic';
     margin-top:20;
@@ -63,7 +63,7 @@ h4{
    
     font-family:'Century Gothic';
     color: gray;
-    margin-left: 600;
+    margin-left: 500;
     padding: 15px;
     position: absolute;
     top:26%;
@@ -75,7 +75,7 @@ h5{
     font-family:'Century Gothic';
     font-size: 13;
     color: gray;
-    margin-left: 600;
+    margin-left: 500;
     padding: 15px;
     position: absolute;
     top:39%;
@@ -87,7 +87,7 @@ h6{
     font-family:'Century Gothic';
     font-size: 13;
     color: gray;
-    margin-left: 600;
+    margin-left: 500;
     padding: 15px;
     position: absolute;
     top:47%;
@@ -99,7 +99,7 @@ h7{
     font-family:'Century Gothic';
     font-size: 13;
     color: gray;
-    margin-left: 600;
+    margin-left: 500;
     padding: 15px;
     position: absolute;
     top:59%;
@@ -110,12 +110,26 @@ h8{
    font-family:'Century Gothic';
     font-size: 14;
     color: gray;
-    margin-left: 600;
+    margin-left: 500;
     padding: 15px;
     position: absolute;
     top:35%; 
 }
 
+
+fieldset{
+    margin-left: 900;
+    margin-top:0 ;
+    margin-right: 100;
+    
+}
+
+legend{
+    font-family:'Century Gothic';
+    color: gray;
+    font-size: 13pt;
+    
+}
 /* ********************footer css ****************************/
 *, *:before, *:after {
 box-sizing: border-box;
