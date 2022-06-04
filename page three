@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Training System</title>
+<link rel="stylesheet" type="text/css" href="pagethree.css">
+</head>
+<body>
+    <h1> Student Info </h1>
+    
+  <img src="student-01.png" alt="" style="width: 200;
+    margin-left: 300; position: absolute;
+    margin-top: 200;  ">
+    
+    <h2 > <a  href="pagetwo.html"   > Back to course </a> </h2> 
+
+    <h3 > <a  href="taskk3.html"   > Log out </a> </h3> 
+    
+    <h4 class="Studentname"> Student name </h4>  
+    <h5 class="StudentID"  > Student ID   </h5>   
+    
+    <h6 class="Department" > Department/Section </h6>
+    <h7 class="Duration "  ><b> Duration</b> </h7>
+    
+<footer >
+      <div >
+        <img src="uni.png" alt="" style="width: 150; margin-left:169;" >  
+      </div>
+    
+
+       <div class="text-footer1">
+          <p>The University of Jordan </p>
+       </div>
+	  
+    
+       <div class="text-footer2">
+          <p>@ 2022 KASIT </p>
+       </div> 
+
+</footer> 
+</body>
+</html>
