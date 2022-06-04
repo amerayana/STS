@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"> </script>
+
+    <title>Training System</title>
+    <link rel="stylesheet" href="task3style.css">
+	
+	
+	
+</head>
+ 
+
+<body>
+
+
+
+    <div class="container">
+    <div class="forms-container">
+    <div class="signin-signup">
+
+
+<!--***************************** logIN FORME stu*******************************************-->
+    <form action="pagetwo.html" class="sign-in-form"  method="post">
+	
+                <h2 class="title">For students</h2>
+                    
+				    <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
+                    </div>
+
+                    <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                    </div>
+        
+                    
+                       
+                       <input type="submit" value="Login" class="btn solid"  > 
+        
+
+                   
+    </form>
+
+        
+<!--***************************** login FORME doc *******************************************-->
+    <form action="pagefour.html" class="sign-up-form">
+                    
+			    <h2 class="title">Supervising Doctors</h2>
+				
+                    <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
+                    </div>
+
+                   
+
+                    <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="btn solid">
+
+    </form>
+    </div>
+    </div>
+		
+		
+<!--***************************** For the supervising doctors **************************-->
+        <div class="panels-container">
+            <div class="panel left-panel">
+                    <div class="content">
+                        <h3>For the supervising doctors</h3> 
+                        <p>      </p>
+                        <button class="btn transparent" id="sign-up-btn">Log in</button>
+                    </div>
+                    <img src="uni.png"  class="image" alt="">
+            </div>
+
+
+<!--***************************** Back to students login page *****************-->
+            <div class="panel right-panel">
+                   <div class="content">
+                       <h3>Back to students login page</h3>           
+                       <p>      </p>
+                       <button class="btn transparent" id="sign-in-btn">Back</button>
+                   </div>
+                   <img src="med.png.png"  class="image" alt="">
+           </div>
+        </div>
+		
+		
+    </div>
+
+    <script src="js/app.js"></script>  
+
+
+</body>
+</html>
