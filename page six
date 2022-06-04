@@ -6,9 +6,9 @@
 <body>
     <h1> Student Info </h1>
     
-  <img src="student-01.png" alt="" style="width: 200;
-    margin-left: 150; position: absolute;
-    margin-top: 200;  ">
+  <img src="student-01.png" alt="" style="width: 200; height: 180;
+    margin-left: 240; position: absolute;
+    margin-top: 220;  ">
     
     <h2 > <a  href="pagefive.html" > Back to student list </a> </h2> 
     <h9 > <a  href="pagefour.html"   > <b>Back to course</b> </a> </h9>
@@ -20,6 +20,59 @@
     <h7 class="Duration "  ><b> Duration:</b> </h7>
     <h8><b>GPA:</b> </h8>
     
+    
+    
+<form>
+    <fieldset>
+    <legend>Evaluation:</legend>
+        
+        <label style="font-family:'Century Gothic'; " >The way the student treats the patient</label> <br/> 
+    <select id="cars" name="cars">
+    <option value="volvo">Excellent </option>
+    <option value="saab"> Very Good</option>
+    <option value="fiat">Good </option>
+    <option value="audi">Acceptable</option>
+    <option value="audi">Unacceptable</option>    
+  
+    </select>
+        <br/> <br/> 
+      
+        <label style="font-family:'Century Gothic'; " >The way the student treats the patient</label> <br/> 
+    <select id="cars" name="cars">
+    <option value="volvo">Excellent </option>
+    <option value="saab"> Very Good</option>
+    <option value="fiat">Good </option>
+    <option value="audi">Acceptable</option>
+    <option value="audi">Unacceptable</option>    
+  
+    </select>
+        
+        
+        <br/> <br/> 
+      
+        <label style="font-family:'Century Gothic'; " >The way the student treats the patient</label> <br/> 
+    <select id="cars" name="cars">
+    <option value="volvo">Excellent </option>
+    <option value="saab"> Very Good</option>
+    <option value="fiat">Good </option>
+    <option value="audi">Acceptable</option>
+    <option value="audi">Unacceptable</option>    
+  
+    </select> 
+        
+        <br/> <br/>
+        
+         <label style="font-family:'Century Gothic'; " >The way the student treats the patient</label> 
+          <br/> 
+         <textarea name="message" rows="4" cols="50">write here </textarea>
+  <br><br>
+       
+  <input type="submit">
+   </fieldset>
+    
+    
+    
+</form>
 <footer >
       <div >
         <img src="uni.png" alt="" style="width: 150; margin-left:169;" >  
